@@ -1,0 +1,735 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salma Mejri | Portfolio</title>
+    <meta name="description" content="Portfolio of Mejri Salma – Computer Science engineering student specializing in DevOps, cloud, and AI-powered solutions." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header" id="top">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Salma Mejri<span>.</span></a>
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Home / Hero Section -->
+    <section class="hero section" id="home">
+        <div class="container hero-container">
+            <div class="hero-content" data-animate="fade-up">
+                <p class="hero-intro">Hello, I'm</p>
+                <h1 class="hero-title">Mejri <span>Salma</span></h1>
+                <p class="hero-subtitle">Computer Science Engineering Student | DevOps &amp; AI Enthusiast</p>
+                <p class="hero-text">
+                   Motivated and passionate engineering student with a solid software development background and a strong interest in DevOps and AI. I create scalable solutions, automate workflows, and transform ideas into real-world results.
+                </p>
+                <div class="hero-actions">
+                    <a href="./Mejri Salma CV.pdf" class="btn primary-btn" download="CV Mejri Salma .pdf">
+                        Download CV
+                    </a>
+                    <a href="#contact" class="btn ghost-btn">Let’s Connect</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper" data-animate="fade-in">
+                <div class="hero-image-circle"></div>
+                <!-- Replace src with your real photo path -->
+                <img src="./photo.png" alt="Portrait of Salma Mejri" class="hero-image" />
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <h2>About Me</h2>
+                <p>Who I am, what I build, and where I’m heading.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-content" data-animate="fade-up">
+                    <p>
+                        I’m a Computer Science Engineering student based in Tunisia, with a strong
+                        foundation in software development and a growing focus on DevOps and AI-powered
+                        solutions. I enjoy turning complex problems into scalable, production-ready platforms
+                        that create real impact for students, teams, and organizations.
+                    </p>
+                    <p>
+                        Through internships and academic projects, I’ve designed CI/CD pipelines, deployed
+                        containerized microservices, and built intelligent applications for student wellness,
+                        education, and digital platforms. I’m constantly learning, experimenting, and looking
+                        for new challenges where I can grow and contribute.
+                    </p>
+                </div>
+
+                <div class="about-values" data-animate="fade-up">
+                    <div class="about-values-grid">
+                        <article class="about-value-card">
+                            <h4>Innovation</h4>
+                            <p>Building modern, smart solutions with DevOps and AI..</p>
+                        </article>
+                        <article class="about-value-card">
+                            <h4>Collaboration</h4>
+                            <p>Working together, sharing ideas, and growing as a team.</p>
+                        </article>
+                        <article class="about-value-card">
+                            <h4>Excellence</h4>
+                            <p>Focusing on clean code, quality work, and reliable systems.</p>
+                        </article>
+                        <article class="about-value-card">
+                            <h4>Impact</h4>
+                            <p>Creating tools that truly help students and users.</p>
+                        </article>
+                    </div>
+
+                    <div class="about-quote-card">
+                        <p class="about-quote-text">
+                            « Innovation begins where curiosity meets technology. »
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="about-subtitle">Skills</h3>
+            <div class="skills-grid">
+                        <article class="skill-card">
+                            <h4>Front-End Development</h4>
+                            <p class="skill-card-sub">Building clean, responsive user interfaces.</p>
+                            <div class="skill-tags">
+                                <span class="skill-badge">React.js</span>
+                                <span class="skill-badge">Angular</span>
+                                <span class="skill-badge">HTML5 </span>
+                                <span class="skill-badge"> CSS3</span>
+                                <span class="skill-badge"> JavaScript</span> 
+                                <span class="skill-badge">Tailwind CSS</span>
+                            </div>
+                        </article>
+
+                        <article class="skill-card">
+                            <h4>Back-End Development</h4>
+                            <p class="skill-card-sub">Designing APIs, business logic, and microservices.</p>
+                            <div class="skill-tags">
+                                <span class="skill-badge">Java</span>
+                                <span class="skill-badge">Node.js / Express.js</span>
+                                <span class="skill-badge">Spring Boot</span>
+                                <span class="skill-badge">NestJS</span>
+                                <span class="skill-badge">Laravel / Symfony</span>
+                                <span class="skill-badge">Python</span>
+                            </div>
+                        </article>
+
+                        <article class="skill-card">
+                            <h4>DevOps &amp; Cloud</h4>
+                            <p class="skill-card-sub">Automating delivery and running apps in production.</p>
+                            <div class="skill-tags">
+                                <span class="skill-badge">Docker</span>
+                                <span class="skill-badge">Kubernetes</span>
+                                <span class="skill-badge">Jenkins</span>
+                                <span class="skill-badge">GitHub Actions</span>
+                                <span class="skill-badge">SonarQube / SonarCloud</span>
+                                <span class="skill-badge">Grafana &amp; Prometheus</span>
+                                <span class="skill-badge">CI/CD Pipelines</span>
+                                <span class="skill-badge">nexus</span>
+                            </div>
+                        </article>
+
+                        <article class="skill-card">
+                            <h4>Databases</h4>
+                            <p class="skill-card-sub">Modeling and querying application data.</p>
+                            <div class="skill-tags">
+                                <span class="skill-badge">MySQL</span>
+                                <span class="skill-badge">MongoDB</span>
+                                <span class="skill-badge">H2</span>
+                                <span class="skill-badge">Firebase</span>
+                            </div>
+                        </article>
+
+                        <article class="skill-card">
+                            <h4>Artificial Intelligence</h4>
+                            <p class="skill-card-sub">AI for education, wellness, and automation.</p>
+                            <div class="skill-tags">
+                                <span class="skill-badge">XGBoost, KNN, SVM</span>
+                                <span class="skill-badge">Machine Learning</span>
+                                <span class="skill-badge">NLP / Transformers</span>
+                                <span class="skill-badge">Computer Vision</span>
+                            </div>
+                        </article>
+
+                        <article class="skill-card">
+                            <h4>Soft Skills &amp; Languages</h4>
+                            <p class="skill-card-sub">How I work and communicate with teams.</p>
+                            <div class="skill-tags">
+                                <span class="skill-badge">Communication</span>
+                                <span class="skill-badge">Adaptability</span>
+                                <span class="skill-badge">Problem Solving</span>
+                                <span class="skill-badge">English (Fluent)</span>
+                                <span class="skill-badge">French (Fluent)</span>
+                            </div>
+                        </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <h2>Experience</h2>
+                <p>Internships and projects where I applied DevOps, full‑stack, and AI skills.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-animate="slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>DevOps Engineer Intern</h3>
+                        <p class="timeline-meta">Wevioo · Tunis · Jun 2025 – Aug 2025</p>
+                        <p>
+                            Designed and deployed a modular, scalable CI/CD pipeline to accelerate collaborative
+                            software delivery and reduce deployment time for frontend and backend services.
+                        </p>
+                        <p>
+                            Orchestrated containers with Docker Compose and Kubernetes, implemented Horizontal Pod
+                            Autoscaler (HPA), and integrated SonarCloud (84.21% test coverage), Prometheus, and
+                            Grafana for real-time monitoring.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Corporate Immersion Intern</h3>
+                        <p class="timeline-meta">Wevioo · Tunis · Jun 2024 – Aug 2024</p>
+                        <p>
+                            Built a full-stack event management app with a custom calendar, real-time updates, push
+                            notifications, JWT authentication, and advanced search and filtering.
+                        </p>
+                        <p>
+                            Delivered responsive UI with Material UI and documented APIs with Swagger using
+                            React.js, NestJS, and MongoDB.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>End‑of‑Study Web Development Intern</h3>
+                        <p class="timeline-meta">Pikoro · Tunis · Feb 2023 – Jun 2023</p>
+                        <p>
+                            Designed and developed “Studenty”, a digitalization platform for associative life,
+                            using the MEAN stack (MongoDB, ExpressJS, Angular, NodeJS) and Scrum methodology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <h2>Certifications</h2>
+                <p>Courses and certifications that support my DevOps, cloud, and backend journey.</p>
+            </div>
+            <div class="card-grid">
+                <article class="card" data-animate="fade-up">
+                    <div class="card-media">
+                        <img src="Graph Developer.png" alt="Apollo Graph Developer – Associate certification for Mejri Salma" />
+                    </div>
+                    <h3>Graph Developer – Associate</h3>
+                    <p class="card-meta">Apollo GraphQL</p>
+                    <p>Validated skills in designing, building, and querying GraphQL APIs for modern web apps.</p>
+                    <div class="card-actions">
+                        <a href="https://www.apollographql.com/tutorials/certifications/ace9fb78-59bd-417a-9b54-b09fb81e9575" class="btn small-btn" target="_blank" rel="noreferrer">
+                            See certification
+                        </a>
+                    </div>
+                </article>
+                <article class="card" data-animate="fade-up" data-delay="100">
+                    <div class="card-media">
+                        <img src="certificat.png" alt="Hashgraph Developer Course certificate for Salma Mejri" />
+                    </div>
+                    <h3>Hashgraph Developer Course</h3>
+                    <p class="card-meta">The Hashgraph Association</p>
+                    <p>Introduction to building decentralized applications and working with Hashgraph technology.</p>
+                    <div class="card-actions">
+                        <button type="button" class="btn small-btn ghost-btn" data-open-hashgraph-modal>
+                            See certification
+                        </button>
+                    </div>
+                </article>
+                <article class="card" data-animate="fade-up" data-delay="200">
+                    <div class="card-media">
+                        <img src="jenkins.png" alt="Jenkins CI/CD Pipeline course certificate for Salma Mejri" />
+                    </div>
+                    <h3>Jenkins: Building CI/CD Pipeline for Scalable Web Apps</h3>
+                    <p class="card-meta">KodeKloud</p>
+                    <p>Focused on designing Jenkins pipelines for scalable, production‑ready web applications.</p>
+                    <div class="card-actions">
+                        <a href="https://learn.kodekloud.com/user/certificate/2d1291ce-2209-423e-a2f5-96914dc3b8ee" class="btn small-btn" target="_blank" rel="noreferrer">
+                            See certification
+                        </a>
+                    </div>
+                </article>
+                <article class="card" data-animate="fade-up" data-delay="300">
+                    <div class="card-media">
+                        <img src="aws certificate.png" alt="AWS Cloud Foundations certificate for Salma Mejri" />
+                    </div>
+                    <h3>AWS Cloud Foundations</h3>
+                    <p class="card-meta">AWS Academy</p>
+                    <p>Covered core AWS cloud concepts, services, and best practices for cloud-native solutions.</p>
+                    <div class="card-actions">
+                        <a href="https://www.credly.com/badges/a05c38c7-9a0a-4e79-8c8d-c4e3efc3ed68" class="btn small-btn" target="_blank" rel="noreferrer">
+                            See certification
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hashgraph Certificate Modal -->
+    <div class="modal" id="hashgraph-modal" aria-hidden="true" role="dialog" aria-labelledby="hashgraph-modal-title">
+        <div class="modal-backdrop" data-close-hashgraph-modal></div>
+        <div class="modal-content">
+            <button class="modal-close" type="button" aria-label="Close" data-close-hashgraph-modal>&times;</button>
+            <h3 id="hashgraph-modal-title">Hashgraph Developer Course – Certificate</h3>
+            <img src="certificat.png" alt="Hashgraph Developer Course certificate for Salma Mejri" />
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <h2>Projects</h2>
+                <p>Some of the AI, DevOps, and full‑stack projects I’ve built recently.</p>
+            </div>
+            <div class="projects-grid">
+                <!-- AI Education Hub -->
+                <article class="project-card" data-animate="fade-up" data-delay="100">
+                    <div class="project-media">
+                        <div class="project-carousel" data-project-carousel-ai>
+                            <button class="carousel-btn prev" type="button" aria-label="Previous screenshot" data-carousel-prev-ai>&lsaquo;</button>
+                            <div class="carousel-track" data-carousel-track-ai>
+                                <img src="django capture/1.jpg" alt="AI Education Hub screenshot 1" class="carousel-slide is-active" />
+                                <img src="django capture/2.jpg" alt="AI Education Hub screenshot 2" class="carousel-slide" />
+                                <img src="django capture/3.jpg" alt="AI Education Hub screenshot 3" class="carousel-slide" />
+                                <img src="django capture/4.jpg" alt="AI Education Hub screenshot 4" class="carousel-slide" />
+                                <img src="django capture/5.jpg" alt="AI Education Hub screenshot 5" class="carousel-slide" />
+                                <img src="django capture/6.jpg" alt="AI Education Hub screenshot 6" class="carousel-slide" />
+                                <img src="django capture/7.jpg" alt="AI Education Hub screenshot 7" class="carousel-slide" />
+                                <img src="django capture/8.jpg" alt="AI Education Hub screenshot 8" class="carousel-slide" />
+                                <img src="django capture/9.jpg" alt="AI Education Hub screenshot 9" class="carousel-slide" />
+                                <img src="django capture/10.jpg" alt="AI Education Hub screenshot 10" class="carousel-slide" />
+                            </div>
+                            <button class="carousel-btn next" type="button" aria-label="Next screenshot" data-carousel-next-ai>&rsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Education Hub – Intelligent Learning Assistant</h3>
+                        <p>
+                            AI platform that automates exercise generation from course materials, extracts PDF
+                            content, summarizes videos, predicts student stress, and provides analytics and
+                            evaluation modules.
+                        </p>
+                        <p class="project-tech">Python · Django · MongoDB · Transformers · Whisper · NLP</p>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=BLnZ5kPE-fo" target="_blank" rel="noreferrer">Live Demo</a>
+                            <a href="https://github.com/Houssine2001/EducationIA_Django" target="_blank" rel="noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- MindWell -->
+                <article class="project-card" data-animate="fade-up" data-delay="100">
+                    <div class="project-media">
+                        <div class="project-carousel" data-project-carousel>
+                            <button class="carousel-btn prev" type="button" aria-label="Previous screenshot" data-carousel-prev>&lsaquo;</button>
+                            <div class="carousel-track" data-carousel-track>
+                                <img src="laravel capture/1.png" alt="MindWell screenshot 1" class="carousel-slide is-active" />
+                                <img src="laravel capture/2.png" alt="MindWell screenshot 2" class="carousel-slide" />
+                                <img src="laravel capture/3.png" alt="MindWell screenshot 3" class="carousel-slide" />
+                                <img src="laravel capture/4.png" alt="MindWell screenshot 4" class="carousel-slide" />
+                                <img src="laravel capture/5.png" alt="MindWell screenshot 5" class="carousel-slide" />
+                                <img src="laravel capture/6.png" alt="MindWell screenshot 6" class="carousel-slide" />
+                                <img src="laravel capture/7.png" alt="MindWell screenshot 7" class="carousel-slide" />
+                                <img src="laravel capture/8.png" alt="MindWell screenshot 8" class="carousel-slide" />
+                                <img src="laravel capture/9.png" alt="MindWell screenshot 9" class="carousel-slide" />
+                                <img src="laravel capture/10.png" alt="MindWell screenshot 10" class="carousel-slide" />
+                                <img src="laravel capture/11.png" alt="MindWell screenshot 11" class="carousel-slide" />
+                                <img src="laravel capture/12.png" alt="MindWell screenshot 12" class="carousel-slide" />
+                                <img src="laravel capture/13.png" alt="MindWell screenshot 13" class="carousel-slide" />
+                            </div>
+                            <button class="carousel-btn next" type="button" aria-label="Next screenshot" data-carousel-next>&rsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>MindWell – AI‑Powered Student Wellness Platform</h3>
+                        <p>
+                           Web platform for student well-being with AI stress prediction, yoga posture analysis via computer vision, personalized nutrition plans, and a wellness blog with secure auth.
+                        </p>
+                        <p class="project-tech">Laravel · Python · Computer Vision · MySQL . Docker . Prometheus . Grafana . CI/CD</p>
+                        <div class="project-links">
+                           
+                            <a href="https://github.com/Houssine2001/SmartHealth_Laravel" target="_blank" rel="noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card" data-animate="fade-up" data-delay="200">
+                    <div class="project-media">
+                        <div class="project-carousel" data-project-carousel-uni>
+                            <button class="carousel-btn prev" type="button" aria-label="Previous screenshot" data-carousel-prev-uni>&lsaquo;</button>
+                            <div class="carousel-track" data-carousel-track-uni>
+                                <img src="UniMindCare/uni1.png" alt="UniMindCare screenshot 1" class="carousel-slide is-active" />
+                                <img src="UniMindCare/uni2.png" alt="UniMindCare screenshot 2" class="carousel-slide" />
+                                <img src="UniMindCare/uni3.png" alt="UniMindCare screenshot 3" class="carousel-slide" />
+                                <img src="UniMindCare/uni4.png" alt="UniMindCare screenshot 4" class="carousel-slide" />
+                                <img src="UniMindCare/uni5.png" alt="UniMindCare screenshot 5" class="carousel-slide" />
+                                <img src="UniMindCare/uni6.png" alt="UniMindCare screenshot 6" class="carousel-slide" />
+                                <img src="UniMindCare/uni7.png" alt="UniMindCare screenshot 7" class="carousel-slide" />
+                                <img src="UniMindCare/uni8.png" alt="UniMindCare screenshot 8" class="carousel-slide" />
+                                <img src="UniMindCare/uni9.png" alt="UniMindCare screenshot 9" class="carousel-slide" />
+                                <img src="UniMindCare/2.png" alt="UniMindCare screenshot 10" class="carousel-slide" />
+                                <img src="UniMindCare/10.png" alt="UniMindCare screenshot 11" class="carousel-slide" />
+                                <img src="UniMindCare/11.png" alt="UniMindCare screenshot 12" class="carousel-slide" />
+                                <img src="UniMindCare/12.png" alt="UniMindCare screenshot 13" class="carousel-slide" />
+                            </div>
+                            <button class="carousel-btn next" type="button" aria-label="Next screenshot" data-carousel-next-uni>&rsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>UniMindCare – University Mental Health Platform</h3>
+                        <p>
+                            Full‑stack mental health platform with case management, real-time scheduling,
+                            AI‑driven recommendations, gamified wellness activities, and crisis handling with
+                            geolocation and secure documentation.
+                        </p>
+                        <p class="project-tech">MERN Stack · Socket.io · Docker · Jest</p>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=ppk3a6g12lw" target="_blank" rel="noreferrer">Live Demo</a>
+                            <a href="https://github.com/Taha-Yassine-Hadded/UniMindCare-PI" target="_blank" rel="noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card" data-animate="fade-up" data-delay="300">
+                    <div class="project-media">
+                        <div class="project-carousel" data-project-carousel-micro>
+                            <button class="carousel-btn prev" type="button" aria-label="Previous screenshot" data-carousel-prev-micro>&lsaquo;</button>
+                            <div class="carousel-track" data-carousel-track-micro>
+                                <img src="microservice/mic1.jpeg" alt="Online Library screenshot 1" class="carousel-slide is-active" />
+                                <img src="microservice/mic2.jpeg" alt="Online Library screenshot 2" class="carousel-slide" />
+                                <img src="microservice/mic3.jpeg" alt="Online Library screenshot 3" class="carousel-slide" />
+                                <img src="microservice/mic4.jpeg" alt="Online Library screenshot 4" class="carousel-slide" />
+                                <img src="microservice/mic5.jpeg" alt="Online Library screenshot 5" class="carousel-slide" />
+                                <img src="microservice/mic6.jpeg" alt="Online Library screenshot 6" class="carousel-slide" />
+                                <img src="microservice/mic7.jpeg" alt="Online Library screenshot 7" class="carousel-slide" />
+                            </div>
+                            <button class="carousel-btn next" type="button" aria-label="Next screenshot" data-carousel-next-micro>&rsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Library – Microservices Architecture</h3>
+                        <p>
+                            Scalable library system with Spring Boot and Node.js microservices, intelligent
+                            recommendations, Stripe payments, JWT security, service discovery, and Docker deployment.
+                        </p>
+                        <p class="project-tech">Angular · Spring Boot · Node.js · MongoDB · MySQL · Docker · RabbitMQ</p>
+                        <div class="project-links">
+                           
+                            <a href="https://github.com/Houssine2001/Library" target="_blank" rel="noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ML Models for Student Well-being Prediction -->
+                <article class="project-card" data-animate="fade-up" data-delay="350">
+                    <div class="project-media">
+                        <div class="project-carousel" data-project-carousel-ml>
+                            <button class="carousel-btn prev" type="button" aria-label="Previous screenshot" data-carousel-prev-ml>&lsaquo;</button>
+                            <div class="carousel-track" data-carousel-track-ml>
+                                <img src="machinelearning/ML1.png" alt="ML Models project screenshot 1" class="carousel-slide is-active" />
+                                <img src="machinelearning/Ml2.png" alt="ML Models project screenshot 2" class="carousel-slide" />
+                                <img src="machinelearning/Ml3.png" alt="ML Models project screenshot 3" class="carousel-slide" />
+                                <img src="machinelearning/ML4.png" alt="ML Models project screenshot 4" class="carousel-slide" />
+                                <img src="machinelearning/Ml5.png" alt="ML Models project screenshot 5" class="carousel-slide" />
+                                <img src="machinelearning/Ml6.png" alt="ML Models project screenshot 6" class="carousel-slide" />
+                            </div>
+                            <button class="carousel-btn next" type="button" aria-label="Next screenshot" data-carousel-next-ml>&rsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ML Models for Student Well-being Prediction</h3>
+                        <p>
+                            Development of classification models (XGBoost, KNN, SVM) to predict student burnout risk based on various psychological factors.
+                        </p>
+                        <p class="project-tech">Python · Scikit-learn · XGBoost . KNN . SVM . Google Colab</p>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=Dfw1pqy1qU4" target="_blank" rel="noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Advanced CI/CD Pipeline Automation for Frontend and Backend -->
+                <article class="project-card" data-animate="fade-up" data-delay="400">
+                    <div class="project-media">
+                        <div class="project-carousel" data-project-carousel-devops>
+                            <button class="carousel-btn prev" type="button" aria-label="Previous screenshot" data-carousel-prev-devops>&lsaquo;</button>
+                            <div class="carousel-track" data-carousel-track-devops>
+                                <img src="devops/1.jpg" alt="DevOps CI/CD project screenshot 1" class="carousel-slide is-active" />
+                                <img src="devops/2.jpg" alt="DevOps CI/CD project screenshot 2" class="carousel-slide" />
+                                <img src="devops/3.jpg" alt="DevOps CI/CD project screenshot 3" class="carousel-slide" />
+                                <img src="devops/4.jpg" alt="DevOps CI/CD project screenshot 4" class="carousel-slide" />
+                                <img src="devops/5.jpg" alt="DevOps CI/CD project screenshot 5" class="carousel-slide" />
+                                <img src="devops/6.jpg" alt="DevOps CI/CD project screenshot 6" class="carousel-slide" />
+                            </div>
+                            <button class="carousel-btn next" type="button" aria-label="Next screenshot" data-carousel-next-devops>&rsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Advanced CI/CD Pipeline Automation for Frontend and Backend</h3>
+                        <p>
+                            Complete DevOps pipeline for a Spring Boot & Angular application, including continuous integration with Jenkins, automated testing, code analysis (SonarQube, JaCoCo), deployment via Docker, and monitoring with Prometheus & Grafana.
+                        </p>
+                        
+                        <p class="project-tech">Jenkins · GitHub · Maven · JUnit/Mockito · JaCoCo · SonarQube · Nexus · Angular · Docker Compose · Prometheus · Grafana</p>
+                    </div>
+                </article>
+
+                <!-- UX/UI Web App for Rare Collectibles -->
+                <article class="project-card" data-animate="fade-up" data-delay="450">
+                    <div class="project-media">
+                        <div class="project-carousel" data-project-carousel-ux>
+                            <button class="carousel-btn prev" type="button" aria-label="Previous screenshot" data-carousel-prev-ux>&lsaquo;</button>
+                            <div class="carousel-track" data-carousel-track-ux>
+                                <img src="ux/1.jpg" alt="UX/UI Rare Collectibles app screenshot 1" class="carousel-slide is-active" />
+                                <img src="ux/2.jpg" alt="UX/UI Rare Collectibles app screenshot 2" class="carousel-slide" />
+                                <img src="ux/3.jpg" alt="UX/UI Rare Collectibles app screenshot 3" class="carousel-slide" />
+                                <img src="ux/4.jpg" alt="UX/UI Rare Collectibles app screenshot 4" class="carousel-slide" />
+                                <img src="ux/5.jpg" alt="UX/UI Rare Collectibles app screenshot 5" class="carousel-slide" />
+                            </div>
+                            <button class="carousel-btn next" type="button" aria-label="Next screenshot" data-carousel-next-ux>&rsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>UX/UI Web App for Rare Collectibles</h3>
+                        <p>
+                            Conducted UX research interviews, personas, and user journeys using Looppanel, then
+                            designed and iterated Figma prototypes with usability testing sessions recorded via TLDV.
+                        </p>
+                        <p>
+                            Built a responsive, high-fidelity frontend with Tailwind CSS and deployed to Vercel with
+                            95% pixel-perfect design accuracy across desktop and mobile breakpoints.
+                        </p>
+                        <p class="project-tech">Figma · Tailwind CSS · Vercel · Looppanel · TLDV</p>
+                        <div class="project-links">
+                            <a href="https://integration-web2025.vercel.app/?fbclid=IwY2xjawKG0dNleHRuA2FlbQIxMABicmlkETFpV25UTHRtVWtzdDNKandnAR4YKVnog39It2T9zaALkUzpbs5Q_5qj9PGAWBUcsabz9__iIrT9aRAmFsAhYA_aem_qfNWDK9SaEiBeDryGzgdZQ" target="_blank" rel="noreferrer">Live App</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Gym Management System (FlexFlow) -->
+                <article class="project-card" data-animate="fade-up" data-delay="500">
+                    <div class="project-media">
+                        <div class="project-carousel" data-project-carousel-gym>
+                            <button class="carousel-btn prev" type="button" aria-label="Previous screenshot" data-carousel-prev-gym>&lsaquo;</button>
+                            <div class="carousel-track" data-carousel-track-gym>
+                                <img src="flexflow/1.PNG" alt="Gym Management System screenshot 1" class="carousel-slide is-active" />
+                                <img src="flexflow/2.PNG" alt="Gym Management System screenshot 2" class="carousel-slide" />
+                                <img src="flexflow/3.PNG" alt="Gym Management System screenshot 3" class="carousel-slide" />
+                                <img src="flexflow/m1.jpg" alt="Gym Management System mobile 1" class="carousel-slide" />
+                                <img src="flexflow/m2.jpg" alt="Gym Management System mobile 2" class="carousel-slide" />
+                                <img src="flexflow/web.jpeg" alt="Gym Management System web 1" class="carousel-slide" />
+                                <img src="flexflow/web2.jpeg" alt="Gym Management System web 2" class="carousel-slide" />
+                                <img src="flexflow/web3.jpeg" alt="Gym Management System web 3" class="carousel-slide" />
+                            </div>
+                            <button class="carousel-btn next" type="button" aria-label="Next screenshot" data-carousel-next-gym>&rsaquo;</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gym Management System – FlexFlow</h3>
+                        <p>
+                            Designed and developed a comprehensive Gym Management System integrating user management,
+                            event scheduling, product catalog, course planning, private coaching, and complaint handling
+                            with AI-driven event recommendations.
+                        </p>
+                       
+                        <p class="project-tech">Symfony · FlutterFlow · Java · Twilio · Stripe · Google Maps · QR Code · PDF · Agile (Scrum)</p>
+                        <div class="project-links">
+                            <a href="https://github.com/mnajjaa/FlexFlowWeb" target="_blank" rel="noreferrer">Code Source</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education / Formation Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <h2>Education</h2>
+                <p>My academic path in applied computer science and engineering.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-animate="slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Engineering Degree in Computer Science</h3>
+                        <p class="timeline-meta">ESPRIT · Tunis · Sept 2023 – Present</p>
+                        <p>
+                            Engineering cycle in Computer Science with focus on software development, DevOps,
+                            cloud‑native architectures, and AI‑driven systems.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor’s Degree in Applied Computer Science – E‑Business</h3>
+                        <p class="timeline-meta">ESEN Manouba · Sept 2020 – June 2023</p>
+                        <p>
+                            Bachelor’s program combining applied computer science, e‑business, and digital
+                            transformation fundamentals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (cards layout) -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <h2>Let's stay in touch.</h2>
+                <p>Feel free to contact me to discuss your projects or potential collaboration opportunities.</p>
+            </div>
+
+            <!-- Top contact summary cards (clickable) -->
+            <div class="contact-summary-grid" data-animate="fade-up">
+                <!-- Email card -->
+                <a class="contact-card contact-card-link" href="mailto:Mejri.Salma1@esprit.tn">
+                    <div class="contact-card-icon contact-card-icon-email">
+                        <span>&#9993;</span>
+                    </div>
+                    <div class="contact-card-body">
+                        <h4>Email</h4>
+                        <p class="contact-card-sub">Mejri.Salma1@esprit.tn</p>
+                    </div>
+                </a>
+
+                <!-- Phone card -->
+                <a class="contact-card contact-card-link" href="tel:+21653602680">
+                    <div class="contact-card-icon contact-card-icon-phone">
+                        <span>&#9742;</span>
+                    </div>
+                    <div class="contact-card-body">
+                        <h4>Téléphone</h4>
+                        <p class="contact-card-sub">(+216) 53 602 680</p>
+                    </div>
+                </a>
+
+                <!-- Location card (not clickable) -->
+                <article class="contact-card">
+                    <div class="contact-card-icon contact-card-icon-location">
+                        <span>&#128205;</span>
+                    </div>
+                    <div class="contact-card-body">
+                        <h4>Localisation</h4>
+                        <p class="contact-card-sub">Tunis, Tunisie</p>
+                    </div>
+                </article>
+
+                <!-- LinkedIn card -->
+                <a class="contact-card contact-card-link" href="https://www.linkedin.com/in/salma-mejri-6a757421a" target="_blank" rel="noreferrer">
+                    <div class="contact-card-icon contact-card-icon-linkedin">
+                        <span>in</span>
+                    </div>
+                    <div class="contact-card-body">
+                        <h4>LinkedIn</h4>
+                        <p class="contact-card-sub">salma-mejri-6a757421a</p>
+                    </div>
+                </a>
+
+                <!-- GitHub card -->
+                <a class="contact-card contact-card-link" href="https://github.com/MejriSalmaa" target="_blank" rel="noreferrer">
+                    <div class="contact-card-icon contact-card-icon-github">
+                        <span>GH</span>
+                    </div>
+                    <div class="contact-card-body">
+                        <h4>GitHub</h4>
+                        <p class="contact-card-sub">@MejriSalmaa</p>
+                    </div>
+                </a>
+                
+                <!-- YouTube card -->
+                <a class="contact-card contact-card-link" href="https://www.youtube.com/@salmamejri5149" target="_blank" rel="noreferrer">
+                    <div class="contact-card-icon contact-card-icon-youtube">
+                        <span>YT</span>
+                    </div>
+                    <div class="contact-card-body">
+                        <h4>YouTube</h4>
+                        <p class="contact-card-sub">@salmamejri5149</p>
+                    </div>
+                </a>
+            </div>
+
+           
+        </div>
+    </section>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        &#8593;
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <p>&copy; <span id="year"></span> Salma Mejri. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://www.youtube.com/@salmamejri5149" target="_blank" rel="noreferrer">YouTube</a>
+            
+                <a href="https://github.com/MejriSalmaa" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/salma-mejri-6a757421a" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="mailto:Mejri.Salma1@esprit.tn">Email</a>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
